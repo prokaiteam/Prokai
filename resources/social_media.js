@@ -41,7 +41,21 @@ const socialPlatforms = [
     hoverColor: "#E4405F",
     hoverIconColor: "#ffffff",
     link: "https://www.instagram.com/prokaiofficial?igsh=MTI5cWc5NTlqaGc0Zg==" // <-- replace with your actual handle
-  }
+  },
+  {
+    name: "Telegram",
+    icon: "fa-brands fa-telegram",
+    hoverColor: "#0088cc",
+    hoverIconColor: "#ffffff",
+    link: "https://t.me/ProkaiOfficial"
+  },
+  {
+  name: "Facebook",
+  icon: "fa-brands fa-facebook-f",
+  hoverColor: "#3b5998",
+  hoverIconColor: "#ffffff",
+  link: "#" // <-- replace with your actual page if different
+}
 ];
 
 
