@@ -65,12 +65,12 @@ socialPlatforms.forEach(platform => {
   a.target = "_blank";
   a.className = `social-button social-button--${platform.name.toLowerCase()}`;
   a.setAttribute("aria-label", platform.name);
-  a.style.backgroundColor = "#000000";
+  a.style.backgroundColor = "#FF66C4FF";
   a.style.color = "#ffffff";
   a.style.transition = "all 0.3s ease";
 
   const icon = document.createElement("i");
-  icon.className = `fab ${platform.icon}`;
+  icon.className = `fab ${platform.icon} fa-lg`;
   a.appendChild(icon);
 
   // Hover effect (invert colors)
@@ -80,7 +80,7 @@ socialPlatforms.forEach(platform => {
   });
 
   a.addEventListener("mouseleave", () => {
-    a.style.backgroundColor = "#000000";
+    a.style.backgroundColor = "#FF66C4FF";
     a.style.color = "#ffffff";
   });
 
